@@ -31,6 +31,10 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+nav li{
+	display: inline;
+  }
+
 ol, ul {
 	list-style: none;
 }
@@ -54,8 +58,13 @@ body {
 }
 
 .container{
-    background-color: #d4e9e7;
+	font-family: Arial;
+	background-color: #d4e9e7;
     width: 1025px;
     margin: 0 auto;
 }
 
+.title{
+	font-family: arial;
+	
+}
